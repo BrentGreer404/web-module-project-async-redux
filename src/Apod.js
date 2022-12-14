@@ -8,7 +8,7 @@ const Apod = (props) => {
         <div>
             <h2>{props.title}</h2>
             <img src={props.image}/>
-            <h2>{props.description}</h2>
+            <p>{props.description}</p>
             <button onClick={(() => props.getImage())}>Get Image</button>
         </div>
     )
